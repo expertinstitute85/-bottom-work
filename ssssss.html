@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+
+function dark (){
+
+let cont=document.getElementById("cont");
+
+cont.classList.toggle("dark")
+
+}
+
+
+
+
+</script>
+
+<style>
+
+.container{
+
+width: 400px;
+height: 400px;
+padding: 10px;
+
+color: navy;
+background-color: antiquewhite;
+border: navy 2px solid;
+margin-top: 10px;
+}
+
+h1{
+
+    font-size: xx-large;
+
+}
+
+p{
+
+font-size: 18px;
+
+}
+.dark{
+
+color: white;
+background-color: navy;
+
+
+}
+button{
+
+border-radius: 10px;
+outline: none;
+}
+</style>
+
+</head>
+<body>
+    <button onclick="dark()">Toggle Dark</button>
+<div id="cont" class="container">
+    
+    <h1>SHERYAR JAWEED</h1>
+
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sint distinctio inventore voluptatum! Eveniet repellat placeat rem vel itaque corrupti, debitis aliquid, consectetur hic eius ratione sit, quisquam necessitatibus? Qui?</P>
+
+</div>
+
+
+</body>
+</html>
